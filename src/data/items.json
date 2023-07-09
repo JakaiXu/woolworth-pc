@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "name": "Avocado",
+    "price": 1.5,
+    "imgUrl": "/imgs/avocado.webp"
+  },
+  {
+    "id": 2,
+    "name": "Banana",
+    "price": 0.99,
+    "imgUrl": "/imgs/banana.webp"
+  },
+  {
+    "id": 3,
+    "name": "Capsicum",
+    "price": 1.8,
+    "imgUrl": "/imgs/capsicum.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Cherries",
+    "price": 10.5,
+    "imgUrl": "/imgs/cherries.webp"
+  },
+  {
+    "id": 5,
+    "name": "Cucumber",
+    "price": 1.99,
+    "imgUrl": "/imgs/cucumber.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Grapes",
+    "price": 4.59,
+    "imgUrl": "/imgs/grapes.webp"
+  },
+  {
+    "id": 7,
+    "name": "Lettuces",
+    "price": 3.99,
+    "imgUrl": "/imgs/lettuces.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "Mandarin",
+    "price": 2.99,
+    "imgUrl": "/imgs/mandarin.jpeg"
+  },
+  {
+    "id": 9,
+    "name": "Papaya",
+    "price": 2.69,
+    "imgUrl": "/imgs/papaya.jpeg"
+  },
+  { "id": 10, "name": "Pear", "price": 2.56, "imgUrl": "/imgs/pear.jpeg" },
+  {
+    "id": 11,
+    "name": "Red Cabbage",
+    "price": 2.79,
+    "imgUrl": "/imgs/redcabbage.jpeg"
+  },
+  {
+    "id": 12,
+    "name": "RockMelon",
+    "price": 4.98,
+    "imgUrl": "/imgs/rockmelon.jpeg"
+  },
+  {
+    "id": 13,
+    "name": "Strawberry",
+    "price": 5.29,
+    "imgUrl": "/imgs/strawberry.jpeg"
+  },
+  {
+    "id": 14,
+    "name": "Tomato",
+    "price": 7.19,
+    "imgUrl": "/imgs/tomato.jpeg"
+  },
+  {
+    "id": 15,
+    "name": "WaterMelon",
+    "price": 10.05,
+    "imgUrl": "/imgs/watermelon.jpeg"
+  },
+  {
+    "id": 16,
+    "name": "Persimmon",
+    "price": 2.19,
+    "imgUrl": "/imgs/persimmon.jpeg"
+  }
+]
