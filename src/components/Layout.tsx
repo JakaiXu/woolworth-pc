@@ -6,7 +6,7 @@ export type ChildrenProps = {
 };
 const Layout: React.FC<ChildrenProps> = ({ children }) => {
   return (
-    <div className="">
+    <div >
       <Header />
       <Navibar />
       {children}

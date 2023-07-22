@@ -11,42 +11,56 @@ const Header = () => {
     setShow(!show);
   };
   return (
-    <div className="sticky top-0 z-50 bg-white h-[100px] pt-6 shadow-lg">
-      <div className="flex items-center justify-around ">
-        <div className="flex items-center">
+    <div className="sticky top-0 z-50 bg-white h-[100px] pt-6 shadow-lg w-[100vw] flex justify-between items-center">
+
+
+      <div className="flex items-center justify-between ">
+        <div className="flex items-center w-[350px] ml-5">
           <img src={logo} alt="woolworth-logo " />
           <hr className="border border-gray-300 h-8 text-center mx-4" />
-          <div className="flex items-center ">
+          <div className="flex items-center w-[220px] text-[14px]">
             <p className="pr-2" onClick={handleShowDummy}>
               Everyday & Other Services{" "}
             </p>
-            
+
             <i className="hover:rotate-180">
               <SlArrowDown />
             </i>
           </div>
-          
         </div>
-        <div className="relative">
+        </div>
+
+        <div className="relative search-bar ">
           <input
-            className="border ml-[3rem] h-[3rem] px-[1rem] w-[150%] rounded-lg bg-gray-100 grow"
-            placeholder="Search products, receips & ideas"
+            className="border h-[3rem] px-[1rem] rounded-lg bg-gray-100 w-full "
+            placeholder="Search products, receips & ideas "
           />
           <i
             className="
-        absolute right-[-64%] top-[30%]"
+        absolute right-2 top-4"
           >
             <FiSearch />
           </i>
         </div>
-        <div className="ml-[10%]">
-          <MyAccount />
+
+
+        <div className="flex">
+          <div className="ml-2">
+            <MyAccount />
+          </div>
+          <div className="mr-4 ml-2">
+            <Cart />
+          </div>
         </div>
-        <div className="mr-5">
-          <Cart />
+
+
+
+      
+      {show && (
+        <div className="ml-[150px]">
+          <DummyCart />
         </div>
-      </div>
-      {show && <div className="ml-[150px]"><DummyCart /></div>}
+      )}
     </div>
   );
 };

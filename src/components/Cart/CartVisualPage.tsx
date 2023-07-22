@@ -23,7 +23,7 @@ const CartVisualPage: React.FC<ShowCartProps> = ({ setShowCart, total }) => {
   const { cartQuantity } = useShoppingCart();
 
   return (
-    <div className="absolute right-0 top-0 h-[100vh] w-[31.25rem] border z-100 bg-white">
+    <div className="absolute right-0 top-0 h-[100vh] w-[31.25rem] borderz-100 bg-white">
       <div className="flex items-center justify-between p-2 border-b-2 border-gray-800 border-dotted h-[6rem]">
         <div className="pl-4" onClick={handleClose}>
           <i className="text-4xl">

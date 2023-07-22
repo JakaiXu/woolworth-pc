@@ -13,7 +13,7 @@ const Home = () => {
         <h2 className="text-3xl text-gray-700 font-bold my-[1rem] text-left">
           Winter Fruit & Veg
         </h2>
-        <div className="flex justify-between">
+        <div className="flex justify-between min-w-max">
           <div className={paternClass}>
             <BiSort />
             Sort by
